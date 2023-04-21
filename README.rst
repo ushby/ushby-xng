@@ -79,15 +79,11 @@ IRC
 Differences to searx and searXNG
 ====================
 
-UshbyXNG is a fork of `searx & searXNG`_.  Here are some of the changes:
-
-.. _searx: https://github.com/searx/searx
-
+UshbyXNG is a fork of searx & searXNG.  Here are some of the changes:
 
 Security
 ---------------
 
-- Huge update of the simple theme:
 - The network is secured with Linux Kodachi.
 - Connection to and from UshbyXNG is handled with VPN, Tor, DNScrypt and TorCrypt.
  
