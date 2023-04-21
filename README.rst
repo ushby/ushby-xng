@@ -10,7 +10,7 @@
 
 ----
 
-Privacy-respecting, hackable `metasearch engine`_ Although, this one is a fork which Ushby company have implemented.
+Privacy-respecting, hackable metasearch engine. Although, this one is a fork which Ushby company have implemented.
 
 If you are looking for running instances, ready to use, then visit searx.space.
 
