@@ -10,7 +10,7 @@
 
 ----
 
-Privacy-respecting, hackable `metasearch engine`_
+Privacy-respecting, hackable `metasearch engine`_ Althogh, this one is a fork which Ushby company have implemented.
 
 If you are looking for running instances, ready to use, then visit searx.space_.
 Otherwise jump to the user_, admin_ and developer_ handbooks you will find on
@@ -66,7 +66,7 @@ our homepage_.
 Contact
 =======
 
-Come join us if you have questions or just want to chat about SearXNG.
+Go and join them if you have questions or just want to chat about SearXNG. Or just contact ushby at mailto:management@ushby.org.
 
 Matrix
   `#searxng:matrix.org <https://matrix.to/#/#searxng:matrix.org>`_
@@ -76,40 +76,21 @@ IRC
   which is bridged to Matrix.
 
 
-Differences to searx
+Differences to searx and searXNG
 ====================
 
-SearXNG is a fork of `searx`_.  Here are some of the changes:
+UshbyXNG is a fork of `searx & searXNG`_.  Here are some of the changes:
 
 .. _searx: https://github.com/searx/searx
 
 
-User experience
+Security
 ---------------
 
 - Huge update of the simple theme:
-
-  * usable on desktop, tablet and mobile
-  * light and dark versions (you can choose in the preferences)
-  * support right-to-left languages
-  * `see the screenshots <https://dev.searxng.org/screenshots.html>`_
-
-- the translations are up to date, you can contribute on `Weblate`_
-- the preferences page has been updated:
-
-  * you can see which engines are reliable or not
-  * engines are grouped inside each tab
-  * each engine has a description
-
-- thanks to the anonymous metrics, it is easier to report a bug of an engine and
-  thus engines get fixed more quickly
-
-  - if you don't want any metrics to be recorded, you can `disable them on the server
-    <https://docs.searxng.org/admin/engines/settings.html#general>`_
-
-- administrator can `block and/or replace the URLs in the search results
-  <https://github.com/searxng/searxng/blob/5c1c0817c3996c5670a545d05831d234d21e6217/searx/settings.yml#L191-L199>`_
-
+- The network is secured with Linux Kodachi.
+- Connection to and from UshbyXNG is handled with VPN, Tor, DNScrypt and TorCrypt.
+ 
 
 Setup
 -----
@@ -120,22 +101,6 @@ Setup
 - alternatively we have up to date installation scripts
 
 .. _Docker image: https://github.com/searxng/searxng-docker
-
-
-Contributing is easier
-----------------------
-
-- readable debug log
-- contributions to the themes are made easier, check out our `Development
-  Quickstart`_ guide
-- a lot of code cleanup and bug fixes
-- the dependencies are up to date
-
-.. _Morty: https://github.com/asciimoo/morty
-.. _Filtron: https://github.com/searxng/filtron
-.. _limiter: https://docs.searxng.org/src/searx.plugins.limiter.html
-.. _Weblate: https://translate.codeberg.org/projects/searxng/searxng/
-.. _Development Quickstart: https://docs.searxng.org/dev/quickstart.html
 
 
 Translations
@@ -151,5 +116,5 @@ https://translate.codeberg.org/projects/searxng/searxng/
 Make a donation
 ===============
 
-You can support the SearXNG project by clicking on the donation page:
+You can support the UshbyXNG project by clicking on the donation page:
 https://www.paypal.com/donate/?hosted_button_id=9VDQJ457KE8SQ
