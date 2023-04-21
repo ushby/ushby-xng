@@ -12,9 +12,7 @@
 
 Privacy-respecting, hackable `metasearch engine`_ Although, this one is a fork which Ushby company have implemented.
 
-If you are looking for running instances, ready to use, then visit searx.space_.
-Otherwise jump to the user_, admin_ and developer_ handbooks you will find on
-our homepage_.
+If you are looking for running instances, ready to use, then visit searx.space.
 
 Contact
 =======
