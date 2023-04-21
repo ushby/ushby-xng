@@ -152,4 +152,4 @@ Make a donation
 ===============
 
 You can support the SearXNG project by clicking on the donation page:
-https://docs.searxng.org/donate.html
+https://www.paypal.com/donate/?hosted_button_id=9VDQJ457KE8SQ
