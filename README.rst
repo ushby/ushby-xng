@@ -86,27 +86,6 @@ Security
 
 - The network is secured with Linux Kodachi.
 - Connection to and from UshbyXNG is handled with VPN, Tor, DNScrypt and TorCrypt.
- 
-
-Setup
------
-
-- you don't need `Morty`_ to proxy the images even on a public instance
-- you don't need `Filtron`_ to block bots, we implemented the builtin `limiter`_
-- you get a well maintained `Docker image`_, now also built for ARM64 and ARM/v7 architectures
-- alternatively we have up to date installation scripts
-
-.. _Docker image: https://github.com/searxng/searxng-docker
-
-
-Translations
-============
-
-We need translators, suggestions are welcome at
-https://translate.codeberg.org/projects/searxng/searxng/
-
-.. figure:: https://translate.codeberg.org/widgets/searxng/-/multi-auto.svg
-   :target: https://translate.codeberg.org/projects/searxng/
 
 
 Make a donation
