@@ -2,7 +2,7 @@
 
 ----
 
-.. figure:: https://raw.githubusercontent.com/searxng/searxng/master/src/brand/searxng.svg
+.. figure:: https:////ushby.org/wp-content/uploads/slider/cache/a8205b1e3d9b902ca26ddb64b9dcfffe/pexels-tranmautritam-69432.jpg
    :target: https://docs.searxng.org/
    :alt: SearXNG
    :width: 100%
