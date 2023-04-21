@@ -1,0 +1,1504 @@
+# Welsh translations for .
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the  project.
+#
+# Translators:
+# Cymrodor <aled@aledpowell.cymru>, 2019
+# Markus Heiser <markus.heiser@darmarit.de>, 2022.
+# CJ <charl.cj.monke@gmail.com>, 2022.
+# RhysJones <proladrhys123@outlook.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: searx\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-20 11:22+0000\n"
+"PO-Revision-Date: 2023-03-15 15:37+0000\n"
+"Last-Translator: RhysJones <proladrhys123@outlook.com>\n"
+"Language-Team: Welsh <https://translate.codeberg.org/projects/searxng/"
+"searxng/cy/>\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
+"11) ? 2 : 3;\n"
+"X-Generator: Weblate 4.16.2\n"
+"Generated-By: Babel 2.11.0\n"
+
+#. CONSTANT_NAMES['DEFAULT_GROUP_NAME']
+#: searx/searxng.msg
+msgid "others"
+msgstr "eraill"
+
+#. CONSTANT_NAMES['OTHER_CATEGORY']
+#: searx/searxng.msg
+msgid "other"
+msgstr "arall"
+
+#. CATEGORY_NAMES['FILES']
+#: searx/searxng.msg
+msgid "files"
+msgstr "ffeiliau"
+
+#. CATEGORY_NAMES['GENERAL']
+#: searx/searxng.msg
+msgid "general"
+msgstr "cyffredinol"
+
+#. CATEGORY_NAMES['MUSIC']
+#: searx/searxng.msg
+msgid "music"
+msgstr "cerddoriaeth"
+
+#. CATEGORY_NAMES['SOCIAL_MEDIA']
+#: searx/searxng.msg
+msgid "social media"
+msgstr "cyfryngau cymdeithasol"
+
+#. CATEGORY_NAMES['IMAGES']
+#: searx/searxng.msg
+msgid "images"
+msgstr "delweddau"
+
+#. CATEGORY_NAMES['VIDEOS']
+#: searx/searxng.msg
+msgid "videos"
+msgstr "fideos"
+
+#. CATEGORY_NAMES['IT']
+#: searx/searxng.msg
+msgid "it"
+msgstr "Technoleg"
+
+#. CATEGORY_NAMES['NEWS']
+#: searx/searxng.msg
+msgid "news"
+msgstr "newyddion"
+
+#. CATEGORY_NAMES['MAP']
+#: searx/searxng.msg
+msgid "map"
+msgstr "map"
+
+#. CATEGORY_NAMES['ONIONS']
+#: searx/searxng.msg
+msgid "onions"
+msgstr "winwns"
+
+#. CATEGORY_NAMES['SCIENCE']
+#: searx/searxng.msg
+msgid "science"
+msgstr "gwyddoniaeth"
+
+#. CATEGORY_GROUPS['APPS']
+#: searx/searxng.msg
+msgid "apps"
+msgstr "apiau"
+
+#. CATEGORY_GROUPS['DICTIONARIES']
+#: searx/searxng.msg
+msgid "dictionaries"
+msgstr "geiriaduron"
+
+#. CATEGORY_GROUPS['LYRICS']
+#: searx/searxng.msg
+msgid "lyrics"
+msgstr "geiriau"
+
+#. CATEGORY_GROUPS['PACKAGES']
+#: searx/searxng.msg
+msgid "packages"
+msgstr "pecyn"
+
+#. CATEGORY_GROUPS['Q_A']
+#: searx/searxng.msg
+msgid "q&a"
+msgstr "q&a"
+
+#. CATEGORY_GROUPS['REPOS']
+#: searx/searxng.msg
+msgid "repos"
+msgstr "Gorffwys"
+
+#. CATEGORY_GROUPS['SOFTWARE_WIKIS']
+#: searx/searxng.msg
+msgid "software wikis"
+msgstr "wikis meddalwedd"
+
+#. CATEGORY_GROUPS['WEB']
+#: searx/searxng.msg
+msgid "web"
+msgstr "gwe"
+
+#. CATEGORY_GROUPS['SCIENTIFIC PUBLICATIONS']
+#: searx/searxng.msg
+msgid "scientific publications"
+msgstr "cyhoeddiadau gwyddonol"
+
+#. STYLE_NAMES['AUTO']
+#: searx/searxng.msg
+msgid "auto"
+msgstr "auto"
+
+#. STYLE_NAMES['LIGHT']
+#: searx/searxng.msg
+msgid "light"
+msgstr "golau"
+
+#. STYLE_NAMES['DARK']
+#: searx/searxng.msg
+msgid "dark"
+msgstr "tywyll"
+
+#: searx/webapp.py:165
+msgid "timeout"
+msgstr "amser allan"
+
+#: searx/webapp.py:166
+msgid "parsing error"
+msgstr "gwall dosrannu"
+
+#: searx/webapp.py:167
+msgid "HTTP protocol error"
+msgstr "Gwall protocol HTTP"
+
+#: searx/webapp.py:168
+msgid "network error"
+msgstr "gwall rhwydwaith"
+
+#: searx/webapp.py:169
+msgid "SSL error: certificate validation has failed"
+msgstr "Gwall SSL: dilysu tystysgrif wedi methu"
+
+#: searx/webapp.py:171
+msgid "unexpected crash"
+msgstr "damwain annisgwyl"
+
+#: searx/webapp.py:178
+msgid "HTTP error"
+msgstr "gwall http"
+
+#: searx/webapp.py:179
+msgid "HTTP connection error"
+msgstr "gwall cysylltiad http"
+
+#: searx/webapp.py:185
+msgid "proxy error"
+msgstr "gwall dirprwy"
+
+#: searx/webapp.py:186
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: searx/webapp.py:187
+msgid "too many requests"
+msgstr "gormod o geisiadau"
+
+#: searx/webapp.py:188
+msgid "access denied"
+msgstr "mynediad wedi ei wrthod"
+
+#: searx/webapp.py:189
+msgid "server API error"
+msgstr "gwall API gweinydd"
+
+#: searx/webapp.py:368
+msgid "No item found"
+msgstr "Ni chanfuwyd eitem"
+
+#: searx/engines/qwant.py:217
+#: searx/templates/simple/result_templates/images.html:20 searx/webapp.py:370
+msgid "Source"
+msgstr "Ffynhonnell"
+
+#: searx/webapp.py:372
+msgid "Error loading the next page"
+msgstr "Gwall wrth lwytho'r dudalen nesaf"
+
+#: searx/webapp.py:524 searx/webapp.py:964
+msgid "Invalid settings, please edit your preferences"
+msgstr "Gosodiadau annilys, golygu eich dewisiadau"
+
+#: searx/webapp.py:540
+msgid "Invalid settings"
+msgstr "Gosodiadau annilys"
+
+#: searx/webapp.py:617 searx/webapp.py:693
+msgid "search error"
+msgstr "gwall chwilio"
+
+#: searx/webapp.py:863
+msgid "Suspended"
+msgstr "Atal"
+
+#: searx/webutils.py:198
+msgid "{minutes} minute(s) ago"
+msgstr "{minutes} munud yn ôl"
+
+#: searx/webutils.py:199
+msgid "{hours} hour(s), {minutes} minute(s) ago"
+msgstr "{hours} awr, {minutes} munud yn ôl"
+
+#: searx/answerers/random/answerer.py:67
+msgid "Random value generator"
+msgstr "Generadur gwerth ar hap"
+
+#: searx/answerers/random/answerer.py:68
+msgid "Generate different random values"
+msgstr "Cynhyrchu gwahanol werthoedd ar hap"
+
+#: searx/answerers/statistics/answerer.py:47
+msgid "Statistics functions"
+msgstr "Swyddogaethau ystadegau"
+
+#: searx/answerers/statistics/answerer.py:48
+msgid "Compute {functions} of the arguments"
+msgstr "Compute {functions} o'r dadleuon"
+
+#: searx/engines/openstreetmap.py:160
+msgid "Get directions"
+msgstr "Cael cyfarwyddiadau"
+
+#: searx/engines/pdbe.py:96
+msgid "{title} (OBSOLETE)"
+msgstr "{title} (OBSOLETE)"
+
+#: searx/engines/pdbe.py:103
+msgid "This entry has been superseded by"
+msgstr "Mae'r cofnod hwn wedi ei ddisodli gan"
+
+#: searx/engines/qwant.py:219
+msgid "Channel"
+msgstr "Sianel"
+
+#: searx/engines/semantic_scholar.py:81
+msgid ""
+"{numCitations} citations from the year {firstCitationVelocityYear} to "
+"{lastCitationVelocityYear}"
+msgstr ""
+"{numCitations} dyfyniadau o'r flwyddyn {firstCitationVelocityYear} i "
+"{lastCitationVelocityYear}"
+
+#: searx/engines/tineye.py:40
+msgid ""
+"Could not read that image url. This may be due to an unsupported file "
+"format. TinEye only supports images that are JPEG, PNG, GIF, BMP, TIFF or"
+" WebP."
+msgstr ""
+"Allai ddim darllen yr url delwedd hwnnw. Gall hyn fod oherwydd fformat ffeil "
+"heb gymorth. Mae TinEye yn cefnogi delweddau yn unig sy'n JPEG, PNG, GIF, "
+"BMP, TIFF neu WebP."
+
+#: searx/engines/tineye.py:46
+msgid ""
+"The image is too simple to find matches. TinEye requires a basic level of"
+" visual detail to successfully identify matches."
+msgstr ""
+"Mae'r ddelwedd yn rhy syml i ddod o hyd i gemau. Mae TinEye angen lefel "
+"sylfaenol o fanylion gweledol i adnabod gemau yn llwyddiannus."
+
+#: searx/engines/tineye.py:52
+msgid "The image could not be downloaded."
+msgstr "Doedd dim modd lawrlwytho'r ddelwedd."
+
+#: searx/engines/wttr.py:101
+msgid "Morning"
+msgstr "Bore"
+
+#: searx/engines/wttr.py:101
+msgid "Noon"
+msgstr "Canol Dydd"
+
+#: searx/engines/wttr.py:101
+msgid "Evening"
+msgstr "Noswaith"
+
+#: searx/engines/wttr.py:101
+msgid "Night"
+msgstr "Nos"
+
+#: searx/plugins/hash_plugin.py:24
+msgid "Converts strings to different hash digests."
+msgstr "Trosi llinynnau i wahanol dreuliadau hash."
+
+#: searx/plugins/hash_plugin.py:52
+msgid "hash digest"
+msgstr "Digon o hash"
+
+#: searx/plugins/hostname_replace.py:9
+msgid "Hostname replace"
+msgstr ""
+
+#: searx/plugins/hostname_replace.py:10
+msgid "Rewrite result hostnames or remove results based on the hostname"
+msgstr ""
+
+#: searx/plugins/oa_doi_rewrite.py:9
+msgid "Open Access DOI rewrite"
+msgstr ""
+
+#: searx/plugins/oa_doi_rewrite.py:10
+msgid ""
+"Avoid paywalls by redirecting to open-access versions of publications "
+"when available"
+msgstr ""
+
+#: searx/plugins/search_on_category_select.py:19
+msgid "Search on category select"
+msgstr ""
+
+#: searx/plugins/search_on_category_select.py:20
+msgid ""
+"Perform search immediately if a category selected. Disable to select "
+"multiple categories. (JavaScript required)"
+msgstr ""
+
+#: searx/plugins/self_info.py:20
+msgid "Self Information"
+msgstr ""
+
+#: searx/plugins/self_info.py:21
+msgid ""
+"Displays your IP if the query is \"ip\" and your user agent if the query "
+"contains \"user agent\"."
+msgstr ""
+
+#: searx/plugins/tor_check.py:25
+msgid "Tor check plugin"
+msgstr ""
+
+#: searx/plugins/tor_check.py:28
+msgid ""
+"This plugin checks if the address of the request is a Tor exit-node, and "
+"informs the user if it is; like check.torproject.org, but from SearXNG."
+msgstr ""
+
+#: searx/plugins/tor_check.py:62
+msgid ""
+"Could not download the list of Tor exit-nodes from: "
+"https://check.torproject.org/exit-addresses"
+msgstr ""
+
+#: searx/plugins/tor_check.py:78
+msgid ""
+"You are using Tor and it looks like you have this external IP address: "
+"{ip_address}"
+msgstr ""
+
+#: searx/plugins/tor_check.py:86
+msgid "You are not using Tor and you have this external IP address: {ip_address}"
+msgstr ""
+
+#: searx/plugins/tracker_url_remover.py:29
+msgid "Tracker URL remover"
+msgstr ""
+
+#: searx/plugins/tracker_url_remover.py:30
+msgid "Remove trackers arguments from the returned URL"
+msgstr ""
+
+#: searx/plugins/vim_hotkeys.py:3
+msgid "Vim-like hotkeys"
+msgstr ""
+
+#: searx/plugins/vim_hotkeys.py:4
+msgid ""
+"Navigate search results with Vim-like hotkeys (JavaScript required). "
+"Press \"h\" key on main or result page to get help."
+msgstr ""
+
+#: searx/templates/simple/404.html:4
+msgid "Page not found"
+msgstr ""
+
+#: searx/templates/simple/404.html:6
+#, python-format
+msgid "Go to %(search_page)s."
+msgstr "Mynd i %(search_page)s."
+
+#: searx/templates/simple/404.html:6
+msgid "search page"
+msgstr "tudalen chwilio"
+
+#: searx/templates/simple/base.html:46
+msgid "About"
+msgstr ""
+
+#: searx/templates/simple/base.html:50
+msgid "Donate"
+msgstr ""
+
+#: searx/templates/simple/base.html:54
+#: searx/templates/simple/preferences.html:99
+msgid "Preferences"
+msgstr "Dewisiadau"
+
+#: searx/templates/simple/base.html:64
+msgid "Powered by"
+msgstr "Pwerwyd gan"
+
+#: searx/templates/simple/base.html:64
+msgid "a privacy-respecting, open metasearch engine"
+msgstr ""
+
+#: searx/templates/simple/base.html:65
+msgid "Source code"
+msgstr ""
+
+#: searx/templates/simple/base.html:66
+msgid "Issue tracker"
+msgstr ""
+
+#: searx/templates/simple/base.html:67 searx/templates/simple/stats.html:18
+msgid "Engine stats"
+msgstr ""
+
+#: searx/templates/simple/base.html:69
+#: searx/templates/simple/messages/no_results.html:15
+msgid "Public instances"
+msgstr ""
+
+#: searx/templates/simple/base.html:72
+msgid "Privacy policy"
+msgstr ""
+
+#: searx/templates/simple/base.html:75
+msgid "Contact instance maintainer"
+msgstr ""
+
+#: searx/templates/simple/categories.html:24
+msgid "Click on the magnifier to perform search"
+msgstr "Cliciwch ar y chwyddwydr i berfformio chwiliad"
+
+#: searx/templates/simple/macros.html:36
+msgid "Length"
+msgstr ""
+
+#: searx/templates/simple/macros.html:37
+#: searx/templates/simple/result_templates/images.html:18
+#: searx/templates/simple/result_templates/paper.html:6
+msgid "Author"
+msgstr ""
+
+#: searx/templates/simple/macros.html:45
+msgid "cached"
+msgstr ""
+
+#: searx/templates/simple/macros.html:45
+msgid "proxied"
+msgstr ""
+
+#: searx/templates/simple/new_issue.html:64
+msgid "Start submiting a new issue on GitHub"
+msgstr ""
+
+#: searx/templates/simple/new_issue.html:66
+msgid "Please check for existing bugs about this engine on GitHub"
+msgstr ""
+
+#: searx/templates/simple/new_issue.html:69
+msgid "I confirm there is no existing bug about the issue I encounter"
+msgstr ""
+
+#: searx/templates/simple/new_issue.html:71
+msgid "If this is a public instance, please specify the URL in the bug report"
+msgstr ""
+
+#: searx/templates/simple/new_issue.html:72
+msgid "Submit a new issue on Github including the above information"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:29
+msgid "No HTTPS"
+msgstr ""
+
+#: searx/templates/simple/messages/no_results.html:10
+#: searx/templates/simple/preferences.html:31
+#: searx/templates/simple/preferences.html:32
+#: searx/templates/simple/results.html:49
+msgid "View error logs and submit a bug report"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:53
+#: searx/templates/simple/stats.html:64
+msgid "Median"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:54
+#: searx/templates/simple/stats.html:70
+msgid "P80"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:55
+#: searx/templates/simple/stats.html:76
+msgid "P95"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:83
+msgid "Failed checker test(s): "
+msgstr ""
+
+#: searx/templates/simple/preferences.html:85
+msgid "Errors:"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:105
+msgid "General"
+msgstr "Cyffredin"
+
+#: searx/templates/simple/preferences.html:108
+msgid "Default categories"
+msgstr "Categorïau arferol"
+
+#: searx/templates/simple/filters/languages.html:1
+#: searx/templates/simple/preferences.html:115
+msgid "Search language"
+msgstr "Iaith chwilio"
+
+#: searx/templates/simple/filters/languages.html:2
+#: searx/templates/simple/preferences.html:118
+msgid "Default language"
+msgstr "Iaith arferol"
+
+#: searx/templates/simple/filters/languages.html:4
+#: searx/templates/simple/preferences.html:119
+msgid "Auto-detect"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:126
+msgid "What language do you prefer for search?"
+msgstr "Ym mha iaith wyt ti'n ffafrio chwilio?"
+
+#: searx/templates/simple/preferences.html:126
+msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:132
+msgid "Autocomplete"
+msgstr "Awto-gwblhau"
+
+#: searx/templates/simple/preferences.html:141
+msgid "Find stuff as you type"
+msgstr "Darganfod pethau wrth i chi deipio"
+
+#: searx/templates/simple/filters/safesearch.html:1
+#: searx/templates/simple/filters/safesearch.html:2
+#: searx/templates/simple/filters/safesearch.html:3
+#: searx/templates/simple/filters/safesearch.html:4
+#: searx/templates/simple/preferences.html:146
+#: searx/templates/simple/preferences.html:314
+msgid "SafeSearch"
+msgstr ""
+
+#: searx/templates/simple/filters/safesearch.html:2
+#: searx/templates/simple/preferences.html:149
+msgid "Strict"
+msgstr "Caeth"
+
+#: searx/templates/simple/filters/safesearch.html:3
+#: searx/templates/simple/preferences.html:150
+msgid "Moderate"
+msgstr "Cymhedrol"
+
+#: searx/templates/simple/filters/safesearch.html:4
+#: searx/templates/simple/preferences.html:151
+msgid "None"
+msgstr "Dim"
+
+#: searx/templates/simple/preferences.html:154
+msgid "Filter content"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:160
+msgid "Open Access DOI resolver"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:170
+msgid ""
+"Redirect to open-access versions of publications when available (plugin "
+"required)"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:174
+msgid "Engine tokens"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:178
+msgid "Access tokens for private engines"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:182
+msgid "User interface"
+msgstr "Rhyngwyneb defnyddiwr"
+
+#: searx/templates/simple/preferences.html:185
+msgid "Interface language"
+msgstr "Iaith y rhyngwyneb"
+
+#: searx/templates/simple/preferences.html:193
+msgid "Change the language of the layout"
+msgstr "Newid iaith rhyngwyneb searX"
+
+#: searx/templates/simple/preferences.html:198
+msgid "Theme"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:206
+msgid "Change SearXNG layout"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:209
+msgid "Theme style"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:217
+msgid "Choose auto to follow your browser settings"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:220
+msgid "Center Alignment"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:223
+#: searx/templates/simple/preferences.html:235
+#: searx/templates/simple/preferences.html:247
+msgid "On"
+msgstr "Ymlaen"
+
+#: searx/templates/simple/preferences.html:224
+#: searx/templates/simple/preferences.html:236
+#: searx/templates/simple/preferences.html:248
+msgid "Off"
+msgstr "I ffwrdd"
+
+#: searx/templates/simple/preferences.html:227
+msgid "Displays results in the center of the page (Oscar layout)."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:232
+msgid "Results on new tabs"
+msgstr "Canlyniadau mewn tabiau newydd"
+
+#: searx/templates/simple/preferences.html:239
+msgid "Open result links on new browser tabs"
+msgstr "Agor dolenni canlyniadau mewn tabiau newydd yn y porwr"
+
+#: searx/templates/simple/preferences.html:244
+msgid "Infinite scroll"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:251
+msgid "Automatically load next page when scrolling to bottom of current page"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:257
+msgid "Privacy"
+msgstr "Preifatrwydd"
+
+#: searx/templates/simple/preferences.html:260
+msgid "HTTP Method"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:267
+msgid ""
+"Change how forms are submitted, <a "
+"href=\"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\""
+" rel=\"external\">learn more about request methods</a>"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:272
+msgid "Image proxy"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:275
+#: searx/templates/simple/preferences.html:287
+msgid "Enabled"
+msgstr "Galluogwyd"
+
+#: searx/templates/simple/preferences.html:276
+#: searx/templates/simple/preferences.html:288
+msgid "Disabled"
+msgstr "Analluogwyd"
+
+#: searx/templates/simple/preferences.html:279
+msgid "Proxying image results through SearXNG"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:284
+msgid "Query in the page's title"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:291
+msgid ""
+"When enabled, the result page's title contains your query. Your browser "
+"can record this title"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:297
+msgid "Engines"
+msgstr "Peiriannau"
+
+#: searx/templates/simple/preferences.html:298
+msgid "Currently used search engines"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:305
+msgid ""
+"This tab does not show up for search results, but you can search the "
+"engines listed here via bangs."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:310
+#: searx/templates/simple/preferences.html:361
+msgid "Allow"
+msgstr "Caniatáu"
+
+#: searx/templates/simple/preferences.html:311
+#: searx/templates/simple/stats.html:25
+msgid "Engine name"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:312
+msgid "Shortcut"
+msgstr "Llwybr Byr"
+
+#: searx/templates/simple/preferences.html:313
+msgid "Supports selected language"
+msgstr "Cefnogir yr iaith a ddewiswyd"
+
+#: searx/templates/simple/filters/time_range.html:1
+#: searx/templates/simple/preferences.html:315
+msgid "Time range"
+msgstr "Cyfnod amser"
+
+#: searx/templates/simple/preferences.html:316
+#: searx/templates/simple/stats.html:28
+msgid "Response time"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:317
+msgid "Max time"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:318
+#: searx/templates/simple/stats.html:29
+msgid "Reliability"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:356
+msgid "Special Queries"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:362
+msgid "Keywords"
+msgstr "Allweddeiriau"
+
+#: searx/templates/simple/preferences.html:363
+msgid "Name"
+msgstr "Enw"
+
+#: searx/templates/simple/preferences.html:364
+msgid "Description"
+msgstr "Disgrifiad"
+
+#: searx/templates/simple/preferences.html:365
+msgid "Examples"
+msgstr "Enghreifftiau"
+
+#: searx/templates/simple/preferences.html:368
+msgid "This is the list of SearXNG's instant answering modules."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:379
+msgid "This is the list of plugins."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:396
+msgid "Cookies"
+msgstr "Cwcis"
+
+#: searx/templates/simple/preferences.html:398
+msgid ""
+"This is the list of cookies and their values SearXNG is storing on your "
+"computer."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:399
+msgid "With that list, you can assess SearXNG transparency."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:404
+msgid "Cookie name"
+msgstr "Enw cwci"
+
+#: searx/templates/simple/preferences.html:405
+msgid "Value"
+msgstr "Gwerth"
+
+#: searx/templates/simple/preferences.html:417
+msgid "Search URL of the currently saved preferences"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:421
+msgid ""
+"Note: specifying custom settings in the search URL can reduce privacy by "
+"leaking data to the clicked result sites."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:422
+msgid "URL to restore your preferences in another browser"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:426
+msgid ""
+"Specifying custom settings in the preferences URL can be used to sync "
+"preferences across devices."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:431
+msgid ""
+"These settings are stored in your cookies, this allows us not to store "
+"this data about you."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:433
+msgid ""
+"These cookies serve your sole convenience, we don't use these cookies to "
+"track you."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:436
+msgid "Save"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:437
+msgid "Reset defaults"
+msgstr "Ailosod rhagosodiadau"
+
+#: searx/templates/simple/preferences.html:438
+msgid "Back"
+msgstr ""
+
+#: searx/templates/simple/results.html:23
+msgid "Answers"
+msgstr "Atebion"
+
+#: searx/templates/simple/results.html:39
+msgid "Number of results"
+msgstr "Nifer o ganlyniadau"
+
+#: searx/templates/simple/messages/no_results.html:6
+#: searx/templates/simple/results.html:46
+msgid "Error!"
+msgstr "Gwall!"
+
+#: searx/templates/simple/results.html:46
+msgid "Engines cannot retrieve results"
+msgstr "Ni all y peiriannau cael canlyniadau"
+
+#: searx/templates/simple/results.html:68
+msgid "Suggestions"
+msgstr "Awgrymiadau"
+
+#: searx/templates/simple/results.html:90
+msgid "Search URL"
+msgstr ""
+
+#: searx/templates/simple/results.html:96
+msgid "Download results"
+msgstr "Lawrlwytho'r canlyniadau"
+
+#: searx/templates/simple/results.html:120
+msgid "Try searching for:"
+msgstr "Rho gynnig ar chwilio am:"
+
+#: searx/templates/simple/results.html:152
+msgid "Back to top"
+msgstr ""
+
+#: searx/templates/simple/results.html:170
+msgid "Previous page"
+msgstr ""
+
+#: searx/templates/simple/results.html:187
+msgid "Next page"
+msgstr ""
+
+#: searx/templates/simple/search.html:3
+msgid "Display the front page"
+msgstr ""
+
+#: searx/templates/simple/search.html:9
+#: searx/templates/simple/simple_search.html:5
+msgid "Search for..."
+msgstr "Chwilio am..."
+
+#: searx/templates/simple/search.html:10
+#: searx/templates/simple/simple_search.html:6
+msgid "clear"
+msgstr ""
+
+#: searx/templates/simple/search.html:11
+#: searx/templates/simple/simple_search.html:7
+msgid "search"
+msgstr ""
+
+#: searx/templates/simple/stats.html:21
+msgid "There is currently no data available. "
+msgstr "Does dim data ar gael ar hyn o bryd."
+
+#: searx/templates/simple/stats.html:26
+msgid "Scores"
+msgstr "Sgoriau"
+
+#: searx/templates/simple/stats.html:27
+msgid "Result count"
+msgstr ""
+
+#: searx/templates/simple/stats.html:59
+msgid "Total"
+msgstr ""
+
+#: searx/templates/simple/stats.html:60
+msgid "HTTP"
+msgstr ""
+
+#: searx/templates/simple/stats.html:61
+msgid "Processing"
+msgstr ""
+
+#: searx/templates/simple/stats.html:99
+msgid "Warnings"
+msgstr ""
+
+#: searx/templates/simple/stats.html:99
+msgid "Errors and exceptions"
+msgstr ""
+
+#: searx/templates/simple/stats.html:105
+msgid "Exception"
+msgstr ""
+
+#: searx/templates/simple/stats.html:107
+msgid "Message"
+msgstr ""
+
+#: searx/templates/simple/stats.html:109
+msgid "Percentage"
+msgstr ""
+
+#: searx/templates/simple/stats.html:111
+msgid "Parameter"
+msgstr ""
+
+#: searx/templates/simple/stats.html:119
+msgid "Filename"
+msgstr ""
+
+#: searx/templates/simple/stats.html:120
+msgid "Function"
+msgstr ""
+
+#: searx/templates/simple/stats.html:121
+msgid "Code"
+msgstr ""
+
+#: searx/templates/simple/stats.html:128
+msgid "Checker"
+msgstr ""
+
+#: searx/templates/simple/stats.html:131
+msgid "Failed test"
+msgstr ""
+
+#: searx/templates/simple/stats.html:132
+msgid "Comment(s)"
+msgstr ""
+
+#: searx/templates/simple/filters/time_range.html:3
+msgid "Anytime"
+msgstr "Unrhyw amser"
+
+#: searx/templates/simple/filters/time_range.html:6
+msgid "Last day"
+msgstr "Y diwrnod diwethaf"
+
+#: searx/templates/simple/filters/time_range.html:9
+msgid "Last week"
+msgstr "Yr wythnos diwethaf"
+
+#: searx/templates/simple/filters/time_range.html:12
+msgid "Last month"
+msgstr "Y mis diwethaf"
+
+#: searx/templates/simple/filters/time_range.html:15
+msgid "Last year"
+msgstr "Y flwyddyn ddiwethaf"
+
+#: searx/templates/simple/messages/no_cookies.html:3
+msgid "Information!"
+msgstr "Gwybodaeth!"
+
+#: searx/templates/simple/messages/no_cookies.html:4
+msgid "currently, there are no cookies defined."
+msgstr ""
+
+#: searx/templates/simple/messages/no_results.html:6
+msgid "Engines cannot retrieve results."
+msgstr "Ni all y peiriannau cael canlyniadau."
+
+#: searx/templates/simple/messages/no_results.html:15
+msgid "Please, try again later or find another SearXNG instance."
+msgstr ""
+
+#: searx/templates/simple/messages/no_results.html:20
+msgid "Sorry!"
+msgstr "Sori!"
+
+#: searx/templates/simple/messages/no_results.html:21
+msgid ""
+"we didn't find any results. Please use another query or search in more "
+"categories."
+msgstr ""
+"Ni ddaethpwyd o hyd i unrhyw ganlyniadau. Defnyddiwch derm(au) chwilio "
+"gwahanol neu ehangu'r chwilio i ragor o gategorïau."
+
+#: searx/templates/simple/result_templates/default.html:6
+msgid "show media"
+msgstr "dangos cyfryngau"
+
+#: searx/templates/simple/result_templates/default.html:6
+msgid "hide media"
+msgstr "cuddio cyfryngau"
+
+#: searx/templates/simple/result_templates/default.html:14
+#: searx/templates/simple/result_templates/videos.html:14
+msgid "This site did not provide any description."
+msgstr ""
+
+#: searx/templates/simple/result_templates/images.html:19
+msgid "Format"
+msgstr ""
+
+#: searx/templates/simple/result_templates/images.html:21
+msgid "Engine"
+msgstr ""
+
+#: searx/templates/simple/result_templates/images.html:22
+msgid "View source"
+msgstr "Gweld y ffynhonnell"
+
+#: searx/templates/simple/result_templates/map.html:12
+msgid "address"
+msgstr ""
+
+#: searx/templates/simple/result_templates/map.html:43
+msgid "show map"
+msgstr "dangos map"
+
+#: searx/templates/simple/result_templates/map.html:43
+msgid "hide map"
+msgstr "cuddio map"
+
+#: searx/templates/simple/result_templates/paper.html:5
+msgid "Published date"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:9
+msgid "Journal"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:22
+msgid "Editor"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:23
+msgid "Publisher"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:24
+msgid "Type"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:25
+msgid "Tags"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:26
+msgid "DOI"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:27
+msgid "ISSN"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:28
+msgid "ISBN"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:33
+msgid "PDF"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:34
+msgid "HTML"
+msgstr ""
+
+#: searx/templates/simple/result_templates/torrent.html:6
+msgid "magnet link"
+msgstr "dolen magnet"
+
+#: searx/templates/simple/result_templates/torrent.html:7
+msgid "torrent file"
+msgstr "ffeil torrent"
+
+#: searx/templates/simple/result_templates/torrent.html:9
+msgid "Seeder"
+msgstr "Hadau"
+
+#: searx/templates/simple/result_templates/torrent.html:9
+msgid "Leecher"
+msgstr "Lawrlwythwyr"
+
+#: searx/templates/simple/result_templates/torrent.html:11
+msgid "Filesize"
+msgstr "Maint ffeil"
+
+#: searx/templates/simple/result_templates/torrent.html:12
+msgid "Bytes"
+msgstr "Beitiau"
+
+#: searx/templates/simple/result_templates/torrent.html:13
+msgid "kiB"
+msgstr "kiB"
+
+#: searx/templates/simple/result_templates/torrent.html:14
+msgid "MiB"
+msgstr "MiB"
+
+#: searx/templates/simple/result_templates/torrent.html:15
+msgid "GiB"
+msgstr "GiB"
+
+#: searx/templates/simple/result_templates/torrent.html:16
+msgid "TiB"
+msgstr "TiB"
+
+#: searx/templates/simple/result_templates/torrent.html:20
+msgid "Number of Files"
+msgstr "Nifer o Ffeiliau"
+
+#: searx/templates/simple/result_templates/videos.html:6
+msgid "show video"
+msgstr "dangos fideo"
+
+#: searx/templates/simple/result_templates/videos.html:6
+msgid "hide video"
+msgstr "cuddio fideo"
+
+#~ msgid "Engine time (sec)"
+#~ msgstr ""
+
+#~ msgid "Page loads (sec)"
+#~ msgstr ""
+
+#~ msgid "Errors"
+#~ msgstr "Gwallau"
+
+#~ msgid "CAPTCHA required"
+#~ msgstr ""
+
+#~ msgid "Rewrite HTTP links to HTTPS if possible"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Results are opened in the same "
+#~ "window by default. This plugin "
+#~ "overwrites the default behaviour to open"
+#~ " links on new tabs/windows. (JavaScript "
+#~ "required)"
+#~ msgstr ""
+#~ "Mae canlyniadau fel arfer yn cael "
+#~ "eu hagor yn yr un ffenestr. Mae'r"
+#~ " ategolyn hwn yn newid hyn fel "
+#~ "bod dolenni yn cael eu hagor mewn"
+#~ " tabiau/ffenestri newydd. (Angen JavaScript)"
+
+#~ msgid "Color"
+#~ msgstr "Lliw"
+
+#~ msgid "Blue (default)"
+#~ msgstr "Glas (arferol)"
+
+#~ msgid "Violet"
+#~ msgstr "Fioled"
+
+#~ msgid "Green"
+#~ msgstr "Gwyrdd"
+
+#~ msgid "Cyan"
+#~ msgstr "Gwyrddlas"
+
+#~ msgid "Orange"
+#~ msgstr "Oren"
+
+#~ msgid "Red"
+#~ msgstr "Coch"
+
+#~ msgid "Category"
+#~ msgstr "Categori"
+
+#~ msgid "Block"
+#~ msgstr "Rhwystro"
+
+#~ msgid "original context"
+#~ msgstr "cyd-destun gwreiddiol"
+
+#~ msgid "Plugins"
+#~ msgstr "Ategolion"
+
+#~ msgid "Answerers"
+#~ msgstr "Atebwyr"
+
+#~ msgid "Avg. time"
+#~ msgstr ""
+
+#~ msgid "show details"
+#~ msgstr "dangos manylion"
+
+#~ msgid "hide details"
+#~ msgstr "cuddio manylion"
+
+#~ msgid "Load more..."
+#~ msgstr "Dysgu mwy..."
+
+#~ msgid "Loading..."
+#~ msgstr ""
+
+#~ msgid "Change searx layout"
+#~ msgstr "Newid cynllun searX"
+
+#~ msgid "Proxying image results through searx"
+#~ msgstr ""
+
+#~ msgid "This is the list of searx's instant answering modules."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is the list of cookies and"
+#~ " their values searx is storing on "
+#~ "your computer."
+#~ msgstr ""
+#~ "Dyma restr y cwcis, a'u gwerthoedd, "
+#~ "mae searX yn eu cadw ar eich "
+#~ "dyfais."
+
+#~ msgid "With that list, you can assess searx transparency."
+#~ msgstr ""
+
+#~ msgid "It look like you are using searx first time."
+#~ msgstr "Mae'n ymddangos eich bod yn defnyddio searx am y tro cyntaf."
+
+#~ msgid "Please, try again later or find another searx instance."
+#~ msgstr ""
+
+#~ msgid "Themes"
+#~ msgstr "Themâu"
+
+#~ msgid "Reliablity"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When enabled, the result page's title"
+#~ " contains your query. Your browser "
+#~ "can record this title."
+#~ msgstr ""
+
+#~ msgid "Method"
+#~ msgstr "Dull"
+
+#~ msgid ""
+#~ "This tab does not show up for "
+#~ "search results but you can search "
+#~ "the engines listed here via bangs."
+#~ msgstr ""
+
+#~ msgid "Advanced settings"
+#~ msgstr "Gosodiadau uwch"
+
+#~ msgid "Close"
+#~ msgstr "Cau"
+
+#~ msgid "Language"
+#~ msgstr ""
+
+#~ msgid "broken"
+#~ msgstr ""
+
+#~ msgid "supported"
+#~ msgstr "cefnogir"
+
+#~ msgid "not supported"
+#~ msgstr "ni chefnogir"
+
+#~ msgid "about"
+#~ msgstr "ynghylch"
+
+#~ msgid "Avg."
+#~ msgstr ""
+
+#~ msgid "User Interface"
+#~ msgstr ""
+
+#~ msgid "Choose style for this theme"
+#~ msgstr "Dewis arddull ar gyfer y thema hon"
+
+#~ msgid "Style"
+#~ msgstr "Arddull"
+
+#~ msgid "Show advanced settings"
+#~ msgstr ""
+
+#~ msgid "Show advanced settings panel in the home page by default"
+#~ msgstr ""
+
+#~ msgid "Allow all"
+#~ msgstr ""
+
+#~ msgid "Disable all"
+#~ msgstr ""
+
+#~ msgid "Selected language"
+#~ msgstr "Iaith a ddewiswyd"
+
+#~ msgid "Query"
+#~ msgstr ""
+
+#~ msgid "save"
+#~ msgstr "cadw"
+
+#~ msgid "back"
+#~ msgstr "nôl"
+
+#~ msgid "Links"
+#~ msgstr "Dolenni"
+
+#~ msgid "RSS subscription"
+#~ msgstr ""
+
+#~ msgid "Search results"
+#~ msgstr "Canlyniadau chwilio"
+
+#~ msgid "next page"
+#~ msgstr "tudalen nesaf"
+
+#~ msgid "previous page"
+#~ msgstr "tudalen ddiwethaf"
+
+#~ msgid "Start search"
+#~ msgstr "Dechrau chwilio"
+
+#~ msgid "Clear search"
+#~ msgstr ""
+
+#~ msgid "Clear"
+#~ msgstr ""
+
+#~ msgid "stats"
+#~ msgstr "ystadegau"
+
+#~ msgid "Heads up!"
+#~ msgstr ""
+
+#~ msgid "It look like you are using SearXNG first time."
+#~ msgstr ""
+
+#~ msgid "Well done!"
+#~ msgstr "Da iawn!"
+
+#~ msgid "Settings saved successfully."
+#~ msgstr "Cadwyd y gosodiadau yn iawn."
+
+#~ msgid "Oh snap!"
+#~ msgstr ""
+
+#~ msgid "Something went wrong."
+#~ msgstr "Aeth rhywbeth o'i le."
+
+#~ msgid "Date"
+#~ msgstr ""
+
+#~ msgid "Type"
+#~ msgstr ""
+
+#~ msgid "Get image"
+#~ msgstr "Cael y ddelwedd"
+
+#~ msgid "Center Alignment"
+#~ msgstr ""
+
+#~ msgid "Displays results in the center of the page (Oscar layout)."
+#~ msgstr ""
+
+#~ msgid "preferences"
+#~ msgstr "dewisiadau"
+
+#~ msgid "Scores per result"
+#~ msgstr ""
+
+#~ msgid "a privacy-respecting, hackable metasearch engine"
+#~ msgstr ""
+
+#~ msgid "No abstract is available for this publication."
+#~ msgstr ""
+
+#~ msgid "Self Informations"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change how forms are submited, <a "
+#~ "href=\"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\""
+#~ " rel=\"external\">learn more about request "
+#~ "methods</a>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This plugin checks if the address "
+#~ "of the request is a TOR exit "
+#~ "node, and informs the user if it"
+#~ " is, like check.torproject.org but from "
+#~ "searxng."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The TOR exit node list "
+#~ "(https://check.torproject.org/exit-addresses) is "
+#~ "unreachable."
+#~ msgstr ""
+
+#~ msgid "You are using TOR. Your IP address seems to be: {ip_address}."
+#~ msgstr ""
+
+#~ msgid "You are not using TOR. Your IP address seems to be: {ip_address}."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The could not download the list of"
+#~ " Tor exit-nodes from "
+#~ "https://check.torproject.org/exit-addresses."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You are using Tor. It looks like"
+#~ " you have this external IP address:"
+#~ " {ip_address}."
+#~ msgstr ""
+
+#~ msgid "You are not using Tor. You have this external IP address: {ip_address}."
+#~ msgstr ""
+
+#~ msgid "Autodetect search language"
+#~ msgstr ""
+
+#~ msgid "Automatically detect the query search language and switch to it."
+#~ msgstr ""

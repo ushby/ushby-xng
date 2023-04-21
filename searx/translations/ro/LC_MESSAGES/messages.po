@@ -1,0 +1,1553 @@
+# Romanian translations for .
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the  project.
+#
+# Translators:
+# adrian.fita <adrian.fita@gmail.com>, 2015
+# Daniel Șerbănescu <daniel@serbanescu.dk>, 2018
+# Mihai Pora <mihai.pora@gmail.com>, 2019
+# lukasig <lukasig@hotmail.com>, 2022.
+# Markus Heiser <markus.heiser@darmarit.de>, 2022.
+# p6n7l <nichita@tutanota.com>, 2023.
+# return42 <markus.heiser@darmarit.de>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version:  searx\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-20 11:22+0000\n"
+"PO-Revision-Date: 2023-02-19 11:39+0000\n"
+"Last-Translator: return42 <markus.heiser@darmarit.de>\n"
+"Language: ro\n"
+"Language-Team: Romanian "
+"<https://translate.codeberg.org/projects/searxng/searxng/ro/>\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 "
+"< 20)) ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#. CONSTANT_NAMES['DEFAULT_GROUP_NAME']
+#: searx/searxng.msg
+msgid "others"
+msgstr "altele"
+
+#. CONSTANT_NAMES['OTHER_CATEGORY']
+#: searx/searxng.msg
+msgid "other"
+msgstr "alta"
+
+#. CATEGORY_NAMES['FILES']
+#: searx/searxng.msg
+msgid "files"
+msgstr "fișiere"
+
+#. CATEGORY_NAMES['GENERAL']
+#: searx/searxng.msg
+msgid "general"
+msgstr "general"
+
+#. CATEGORY_NAMES['MUSIC']
+#: searx/searxng.msg
+msgid "music"
+msgstr "muzică"
+
+#. CATEGORY_NAMES['SOCIAL_MEDIA']
+#: searx/searxng.msg
+msgid "social media"
+msgstr "rețele sociale"
+
+#. CATEGORY_NAMES['IMAGES']
+#: searx/searxng.msg
+msgid "images"
+msgstr "imagini"
+
+#. CATEGORY_NAMES['VIDEOS']
+#: searx/searxng.msg
+msgid "videos"
+msgstr "videouri"
+
+#. CATEGORY_NAMES['IT']
+#: searx/searxng.msg
+msgid "it"
+msgstr "it"
+
+#. CATEGORY_NAMES['NEWS']
+#: searx/searxng.msg
+msgid "news"
+msgstr "știri"
+
+#. CATEGORY_NAMES['MAP']
+#: searx/searxng.msg
+msgid "map"
+msgstr "harta"
+
+#. CATEGORY_NAMES['ONIONS']
+#: searx/searxng.msg
+msgid "onions"
+msgstr "cepe"
+
+#. CATEGORY_NAMES['SCIENCE']
+#: searx/searxng.msg
+msgid "science"
+msgstr "ștință"
+
+#. CATEGORY_GROUPS['APPS']
+#: searx/searxng.msg
+msgid "apps"
+msgstr "aplicații"
+
+#. CATEGORY_GROUPS['DICTIONARIES']
+#: searx/searxng.msg
+msgid "dictionaries"
+msgstr "dicționare"
+
+#. CATEGORY_GROUPS['LYRICS']
+#: searx/searxng.msg
+msgid "lyrics"
+msgstr "versuri"
+
+#. CATEGORY_GROUPS['PACKAGES']
+#: searx/searxng.msg
+msgid "packages"
+msgstr "pachete"
+
+#. CATEGORY_GROUPS['Q_A']
+#: searx/searxng.msg
+msgid "q&a"
+msgstr "î&r"
+
+#. CATEGORY_GROUPS['REPOS']
+#: searx/searxng.msg
+msgid "repos"
+msgstr "arhive digitale"
+
+#. CATEGORY_GROUPS['SOFTWARE_WIKIS']
+#: searx/searxng.msg
+msgid "software wikis"
+msgstr "enciclopedii de programe"
+
+#. CATEGORY_GROUPS['WEB']
+#: searx/searxng.msg
+msgid "web"
+msgstr "internet"
+
+#. CATEGORY_GROUPS['SCIENTIFIC PUBLICATIONS']
+#: searx/searxng.msg
+msgid "scientific publications"
+msgstr "lucrări științifice"
+
+#. STYLE_NAMES['AUTO']
+#: searx/searxng.msg
+msgid "auto"
+msgstr "automat"
+
+#. STYLE_NAMES['LIGHT']
+#: searx/searxng.msg
+msgid "light"
+msgstr "luminos"
+
+#. STYLE_NAMES['DARK']
+#: searx/searxng.msg
+msgid "dark"
+msgstr "întunecat"
+
+#: searx/webapp.py:165
+msgid "timeout"
+msgstr "pauza"
+
+#: searx/webapp.py:166
+msgid "parsing error"
+msgstr "eroare de transpunere"
+
+#: searx/webapp.py:167
+msgid "HTTP protocol error"
+msgstr "eroare protocol HTTP"
+
+#: searx/webapp.py:168
+msgid "network error"
+msgstr "eroare rețea"
+
+#: searx/webapp.py:169
+msgid "SSL error: certificate validation has failed"
+msgstr "Eroare SSL: validarea certificatului a esuat"
+
+#: searx/webapp.py:171
+msgid "unexpected crash"
+msgstr "inchidere fortata neasteptata"
+
+#: searx/webapp.py:178
+msgid "HTTP error"
+msgstr "eroare HTTP"
+
+#: searx/webapp.py:179
+msgid "HTTP connection error"
+msgstr "eroare conexiune HTTP"
+
+#: searx/webapp.py:185
+msgid "proxy error"
+msgstr "eroare proxy"
+
+#: searx/webapp.py:186
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: searx/webapp.py:187
+msgid "too many requests"
+msgstr "Prea multe solicitări"
+
+#: searx/webapp.py:188
+msgid "access denied"
+msgstr "Acces interzis"
+
+#: searx/webapp.py:189
+msgid "server API error"
+msgstr "eroare la API pe Server"
+
+#: searx/webapp.py:368
+msgid "No item found"
+msgstr "Niciun element găsit"
+
+#: searx/engines/qwant.py:217
+#: searx/templates/simple/result_templates/images.html:20 searx/webapp.py:370
+msgid "Source"
+msgstr "Sursă"
+
+#: searx/webapp.py:372
+msgid "Error loading the next page"
+msgstr "Eroare la încărcarea paginii următoare"
+
+#: searx/webapp.py:524 searx/webapp.py:964
+msgid "Invalid settings, please edit your preferences"
+msgstr "Configurări nevalide, modificați preferințele"
+
+#: searx/webapp.py:540
+msgid "Invalid settings"
+msgstr "Configurări nevalide"
+
+#: searx/webapp.py:617 searx/webapp.py:693
+msgid "search error"
+msgstr "eroare de căutare"
+
+#: searx/webapp.py:863
+msgid "Suspended"
+msgstr "Întrerupt"
+
+#: searx/webutils.py:198
+msgid "{minutes} minute(s) ago"
+msgstr "{minutes} minut(e) în urmă"
+
+#: searx/webutils.py:199
+msgid "{hours} hour(s), {minutes} minute(s) ago"
+msgstr "{hours} oră(e), {minutes} minut(e) în urmă"
+
+#: searx/answerers/random/answerer.py:67
+msgid "Random value generator"
+msgstr "Generator de numere aleatorii"
+
+#: searx/answerers/random/answerer.py:68
+msgid "Generate different random values"
+msgstr "Generează valori aleatoare diferite"
+
+#: searx/answerers/statistics/answerer.py:47
+msgid "Statistics functions"
+msgstr "Funcții statistice"
+
+#: searx/answerers/statistics/answerer.py:48
+msgid "Compute {functions} of the arguments"
+msgstr "Calculează {functions} din argumente"
+
+#: searx/engines/openstreetmap.py:160
+msgid "Get directions"
+msgstr "Gaseste directia"
+
+#: searx/engines/pdbe.py:96
+msgid "{title} (OBSOLETE)"
+msgstr "{title} {OBSOLETE}"
+
+#: searx/engines/pdbe.py:103
+msgid "This entry has been superseded by"
+msgstr "Această intrare a fost inlocuită de"
+
+#: searx/engines/qwant.py:219
+msgid "Channel"
+msgstr "Canal"
+
+#: searx/engines/semantic_scholar.py:81
+msgid ""
+"{numCitations} citations from the year {firstCitationVelocityYear} to "
+"{lastCitationVelocityYear}"
+msgstr ""
+"{numCitations} Citații din acest an {firstCitationVelocityYear} pâna la "
+"{lastCitationVelocityYear}"
+
+#: searx/engines/tineye.py:40
+msgid ""
+"Could not read that image url. This may be due to an unsupported file "
+"format. TinEye only supports images that are JPEG, PNG, GIF, BMP, TIFF or"
+" WebP."
+msgstr ""
+"Nu s-a putut citi url-ul imaginii. O posibila cauza ar fi un format "
+"nesuportat de fișier. TinEye suportă doar imagini care sunt JPEG, "
+"PNG,GIF."
+
+#: searx/engines/tineye.py:46
+msgid ""
+"The image is too simple to find matches. TinEye requires a basic level of"
+" visual detail to successfully identify matches."
+msgstr ""
+"Imaginea este prea simplă pentru a găsi potriviri. TinEye necesită cel "
+"putin un nivel minimal al detaliilor pentru a găsi cu succes potriviri."
+
+#: searx/engines/tineye.py:52
+msgid "The image could not be downloaded."
+msgstr "Imaginea nu-a putut fii descărcată."
+
+#: searx/engines/wttr.py:101
+msgid "Morning"
+msgstr "Dimineata"
+
+#: searx/engines/wttr.py:101
+msgid "Noon"
+msgstr "Pranz"
+
+#: searx/engines/wttr.py:101
+msgid "Evening"
+msgstr "Seara"
+
+#: searx/engines/wttr.py:101
+msgid "Night"
+msgstr "Noapte"
+
+#: searx/plugins/hash_plugin.py:24
+msgid "Converts strings to different hash digests."
+msgstr "Convertește șirurile în diferite rezumate hash."
+
+#: searx/plugins/hash_plugin.py:52
+msgid "hash digest"
+msgstr "rezumat hash"
+
+#: searx/plugins/hostname_replace.py:9
+msgid "Hostname replace"
+msgstr "Schimbă hostname-ul"
+
+#: searx/plugins/hostname_replace.py:10
+msgid "Rewrite result hostnames or remove results based on the hostname"
+msgstr "Rescrie hostname-urile rezultate sau șterge rezultatele bazate pe hostname"
+
+#: searx/plugins/oa_doi_rewrite.py:9
+msgid "Open Access DOI rewrite"
+msgstr "Rescriere DOI cu acces deschis"
+
+#: searx/plugins/oa_doi_rewrite.py:10
+msgid ""
+"Avoid paywalls by redirecting to open-access versions of publications "
+"when available"
+msgstr ""
+"Evită „zidurile de plată” redirecționând către versiuni cu acces deschis "
+"ale publicațiilor când sunt disponibile"
+
+#: searx/plugins/search_on_category_select.py:19
+msgid "Search on category select"
+msgstr "Caută la selectarea categoriei"
+
+#: searx/plugins/search_on_category_select.py:20
+msgid ""
+"Perform search immediately if a category selected. Disable to select "
+"multiple categories. (JavaScript required)"
+msgstr ""
+"Execută căutarea imediat dacă o categorie este selectată. Dezactivează "
+"pentru a selecta categorii multiple. (Necesită JavaScript)"
+
+#: searx/plugins/self_info.py:20
+#, fuzzy
+msgid "Self Information"
+msgstr "Informații despre sine"
+
+#: searx/plugins/self_info.py:21
+msgid ""
+"Displays your IP if the query is \"ip\" and your user agent if the query "
+"contains \"user agent\"."
+msgstr ""
+"Afișează IP-ul dacă interogarea este „ip” și agentul de utilizator dacă "
+"interogarea conține „user agent”."
+
+#: searx/plugins/tor_check.py:25
+msgid "Tor check plugin"
+msgstr "Activeaza plugin Tor"
+
+#: searx/plugins/tor_check.py:28
+msgid ""
+"This plugin checks if the address of the request is a Tor exit-node, and "
+"informs the user if it is; like check.torproject.org, but from SearXNG."
+msgstr ""
+
+#: searx/plugins/tor_check.py:62
+msgid ""
+"Could not download the list of Tor exit-nodes from: "
+"https://check.torproject.org/exit-addresses"
+msgstr ""
+
+#: searx/plugins/tor_check.py:78
+msgid ""
+"You are using Tor and it looks like you have this external IP address: "
+"{ip_address}"
+msgstr ""
+
+#: searx/plugins/tor_check.py:86
+msgid "You are not using Tor and you have this external IP address: {ip_address}"
+msgstr ""
+
+#: searx/plugins/tracker_url_remover.py:29
+msgid "Tracker URL remover"
+msgstr "Eliminator de URL pentru urmăritor"
+
+#: searx/plugins/tracker_url_remover.py:30
+msgid "Remove trackers arguments from the returned URL"
+msgstr "Elimină argumentele urmăritorului din URL-ul returnat"
+
+#: searx/plugins/vim_hotkeys.py:3
+msgid "Vim-like hotkeys"
+msgstr "Scurtături de tastatură în stilul Vim"
+
+#: searx/plugins/vim_hotkeys.py:4
+msgid ""
+"Navigate search results with Vim-like hotkeys (JavaScript required). "
+"Press \"h\" key on main or result page to get help."
+msgstr ""
+"Navighează rezultatele căutării cu scurtături de tastatură în stilul Vim "
+"(necesită JavaScript). Apăsați tasta „h” în pagina principală sau în "
+"pagina cu rezultate pentru a obține ajutor."
+
+#: searx/templates/simple/404.html:4
+msgid "Page not found"
+msgstr "Pagină negăsită"
+
+#: searx/templates/simple/404.html:6
+#, python-format
+msgid "Go to %(search_page)s."
+msgstr "Navighează la %(search_page)s."
+
+#: searx/templates/simple/404.html:6
+msgid "search page"
+msgstr "pagină de căutare"
+
+#: searx/templates/simple/base.html:46
+msgid "About"
+msgstr "Despre"
+
+#: searx/templates/simple/base.html:50
+msgid "Donate"
+msgstr "Donează"
+
+#: searx/templates/simple/base.html:54
+#: searx/templates/simple/preferences.html:99
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: searx/templates/simple/base.html:64
+msgid "Powered by"
+msgstr "Motorizat de"
+
+#: searx/templates/simple/base.html:64
+msgid "a privacy-respecting, open metasearch engine"
+msgstr "motor de cautare gratuit ce respecta intimitatea"
+
+#: searx/templates/simple/base.html:65
+msgid "Source code"
+msgstr "Cod sursă"
+
+#: searx/templates/simple/base.html:66
+msgid "Issue tracker"
+msgstr "Urmăritor de probleme"
+
+#: searx/templates/simple/base.html:67 searx/templates/simple/stats.html:18
+msgid "Engine stats"
+msgstr "Statisticile motorului"
+
+#: searx/templates/simple/base.html:69
+#: searx/templates/simple/messages/no_results.html:15
+msgid "Public instances"
+msgstr "Instanțe publice"
+
+#: searx/templates/simple/base.html:72
+msgid "Privacy policy"
+msgstr "Confidențialitate"
+
+#: searx/templates/simple/base.html:75
+msgid "Contact instance maintainer"
+msgstr "Contactați întreținătorul instanței"
+
+#: searx/templates/simple/categories.html:24
+msgid "Click on the magnifier to perform search"
+msgstr "Apăsați pe lupă pentru a executa căutarea"
+
+#: searx/templates/simple/macros.html:36
+msgid "Length"
+msgstr "Lungime"
+
+#: searx/templates/simple/macros.html:37
+#: searx/templates/simple/result_templates/images.html:18
+#: searx/templates/simple/result_templates/paper.html:6
+msgid "Author"
+msgstr "Autor"
+
+#: searx/templates/simple/macros.html:45
+msgid "cached"
+msgstr "stocat temporar"
+
+#: searx/templates/simple/macros.html:45
+msgid "proxied"
+msgstr "delegat"
+
+#: searx/templates/simple/new_issue.html:64
+msgid "Start submiting a new issue on GitHub"
+msgstr "Începe prin a trimite o nouă problemă  la GiHub"
+
+#: searx/templates/simple/new_issue.html:66
+msgid "Please check for existing bugs about this engine on GitHub"
+msgstr ""
+
+#: searx/templates/simple/new_issue.html:69
+msgid "I confirm there is no existing bug about the issue I encounter"
+msgstr ""
+"Confirm ca nu exista nici un bug in legatura cu situatia pe care o "
+"intampin"
+
+#: searx/templates/simple/new_issue.html:71
+msgid "If this is a public instance, please specify the URL in the bug report"
+msgstr "Daca este o instanta publica, te rog specifica URL-ul in raportul erorii."
+
+#: searx/templates/simple/new_issue.html:72
+msgid "Submit a new issue on Github including the above information"
+msgstr ""
+"Deschide un nou caz pe Github, cu toate informațiile din partea de "
+"deasupra incluse"
+
+#: searx/templates/simple/preferences.html:29
+msgid "No HTTPS"
+msgstr "Fara HTTPS"
+
+#: searx/templates/simple/messages/no_results.html:10
+#: searx/templates/simple/preferences.html:31
+#: searx/templates/simple/preferences.html:32
+#: searx/templates/simple/results.html:49
+msgid "View error logs and submit a bug report"
+msgstr "Vizualizați jurnalele de erori și trimiteți un raport de eroare"
+
+#: searx/templates/simple/preferences.html:53
+#: searx/templates/simple/stats.html:64
+msgid "Median"
+msgstr "Median"
+
+#: searx/templates/simple/preferences.html:54
+#: searx/templates/simple/stats.html:70
+msgid "P80"
+msgstr "P80"
+
+#: searx/templates/simple/preferences.html:55
+#: searx/templates/simple/stats.html:76
+msgid "P95"
+msgstr "P95"
+
+#: searx/templates/simple/preferences.html:83
+msgid "Failed checker test(s): "
+msgstr "Testele verificatoare au eșuat "
+
+#: searx/templates/simple/preferences.html:85
+msgid "Errors:"
+msgstr "Erori:"
+
+#: searx/templates/simple/preferences.html:105
+msgid "General"
+msgstr "Generale"
+
+#: searx/templates/simple/preferences.html:108
+msgid "Default categories"
+msgstr "Categorii implicite"
+
+#: searx/templates/simple/filters/languages.html:1
+#: searx/templates/simple/preferences.html:115
+msgid "Search language"
+msgstr "Limba de căutare"
+
+#: searx/templates/simple/filters/languages.html:2
+#: searx/templates/simple/preferences.html:118
+msgid "Default language"
+msgstr "Limbă implicită"
+
+#: searx/templates/simple/filters/languages.html:4
+#: searx/templates/simple/preferences.html:119
+msgid "Auto-detect"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:126
+msgid "What language do you prefer for search?"
+msgstr "Ce limbă preferați pentru căutare?"
+
+#: searx/templates/simple/preferences.html:126
+msgid "Choose Auto-detect to let SearXNG detect the language of your query."
+msgstr ""
+
+#: searx/templates/simple/preferences.html:132
+msgid "Autocomplete"
+msgstr "Completare automată"
+
+#: searx/templates/simple/preferences.html:141
+msgid "Find stuff as you type"
+msgstr "Găsește lucruri în timp ce tastezi"
+
+#: searx/templates/simple/filters/safesearch.html:1
+#: searx/templates/simple/filters/safesearch.html:2
+#: searx/templates/simple/filters/safesearch.html:3
+#: searx/templates/simple/filters/safesearch.html:4
+#: searx/templates/simple/preferences.html:146
+#: searx/templates/simple/preferences.html:314
+msgid "SafeSearch"
+msgstr "CăutareSigură"
+
+#: searx/templates/simple/filters/safesearch.html:2
+#: searx/templates/simple/preferences.html:149
+msgid "Strict"
+msgstr "Strict"
+
+#: searx/templates/simple/filters/safesearch.html:3
+#: searx/templates/simple/preferences.html:150
+msgid "Moderate"
+msgstr "Moderat"
+
+#: searx/templates/simple/filters/safesearch.html:4
+#: searx/templates/simple/preferences.html:151
+msgid "None"
+msgstr "Nimic"
+
+#: searx/templates/simple/preferences.html:154
+msgid "Filter content"
+msgstr "Filtrează conținutul"
+
+#: searx/templates/simple/preferences.html:160
+msgid "Open Access DOI resolver"
+msgstr "Rezolvator de acces deschis DOI"
+
+#: searx/templates/simple/preferences.html:170
+msgid ""
+"Redirect to open-access versions of publications when available (plugin "
+"required)"
+msgstr ""
+"Redirecționează către versiuni cu acces deschis ale publicațiilor când "
+"sunt disponibile (modul necesar)"
+
+#: searx/templates/simple/preferences.html:174
+msgid "Engine tokens"
+msgstr "Tokenurile motorului"
+
+#: searx/templates/simple/preferences.html:178
+msgid "Access tokens for private engines"
+msgstr "Tokenuri de acces pentru motoare de căutare private"
+
+#: searx/templates/simple/preferences.html:182
+msgid "User interface"
+msgstr "Interfața pentru utilizator"
+
+#: searx/templates/simple/preferences.html:185
+msgid "Interface language"
+msgstr "Limba interfeței"
+
+#: searx/templates/simple/preferences.html:193
+msgid "Change the language of the layout"
+msgstr "Schimbă limba aspectului"
+
+#: searx/templates/simple/preferences.html:198
+msgid "Theme"
+msgstr "Temă"
+
+#: searx/templates/simple/preferences.html:206
+msgid "Change SearXNG layout"
+msgstr "Schimbă aspectul la SearXNG"
+
+#: searx/templates/simple/preferences.html:209
+msgid "Theme style"
+msgstr "Stilul temei"
+
+#: searx/templates/simple/preferences.html:217
+msgid "Choose auto to follow your browser settings"
+msgstr "Selectați auto pentru a urma setările browserului dvs"
+
+#: searx/templates/simple/preferences.html:220
+msgid "Center Alignment"
+msgstr "Aliniere centrală"
+
+#: searx/templates/simple/preferences.html:223
+#: searx/templates/simple/preferences.html:235
+#: searx/templates/simple/preferences.html:247
+msgid "On"
+msgstr "Pornit"
+
+#: searx/templates/simple/preferences.html:224
+#: searx/templates/simple/preferences.html:236
+#: searx/templates/simple/preferences.html:248
+msgid "Off"
+msgstr "Oprit"
+
+#: searx/templates/simple/preferences.html:227
+msgid "Displays results in the center of the page (Oscar layout)."
+msgstr "Afișează rezultatele pe centrul paginii (amplasare Oscar)."
+
+#: searx/templates/simple/preferences.html:232
+msgid "Results on new tabs"
+msgstr "Rezultate în taburi noi"
+
+#: searx/templates/simple/preferences.html:239
+msgid "Open result links on new browser tabs"
+msgstr "Deschide legăturile rezultate în taburi noi"
+
+#: searx/templates/simple/preferences.html:244
+msgid "Infinite scroll"
+msgstr "Derulare infinită"
+
+#: searx/templates/simple/preferences.html:251
+msgid "Automatically load next page when scrolling to bottom of current page"
+msgstr "Încarcă automat pagina următoare când se derulează la baza paginii curente"
+
+#: searx/templates/simple/preferences.html:257
+msgid "Privacy"
+msgstr "Confidențialitate"
+
+#: searx/templates/simple/preferences.html:260
+msgid "HTTP Method"
+msgstr "Metodă HTTP"
+
+#: searx/templates/simple/preferences.html:267
+msgid ""
+"Change how forms are submitted, <a "
+"href=\"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\""
+" rel=\"external\">learn more about request methods</a>"
+msgstr ""
+
+#: searx/templates/simple/preferences.html:272
+msgid "Image proxy"
+msgstr "Proxy de imagini"
+
+#: searx/templates/simple/preferences.html:275
+#: searx/templates/simple/preferences.html:287
+msgid "Enabled"
+msgstr "Activat"
+
+#: searx/templates/simple/preferences.html:276
+#: searx/templates/simple/preferences.html:288
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: searx/templates/simple/preferences.html:279
+msgid "Proxying image results through SearXNG"
+msgstr "Trimitere prin proxy a rezultatelor imagini prin SearXNG"
+
+#: searx/templates/simple/preferences.html:284
+msgid "Query in the page's title"
+msgstr "Afișați căutarea în titlul paginii"
+
+#: searx/templates/simple/preferences.html:291
+msgid ""
+"When enabled, the result page's title contains your query. Your browser "
+"can record this title"
+msgstr ""
+"Când este activat, titlul paginii de rezultate conține căutarea dvs. "
+"Browserul dumneavoastră poate înregistra acest titlu"
+
+#: searx/templates/simple/preferences.html:297
+msgid "Engines"
+msgstr "Motoare de căutare"
+
+#: searx/templates/simple/preferences.html:298
+msgid "Currently used search engines"
+msgstr "Motoarele de căutare folosite curent"
+
+#: searx/templates/simple/preferences.html:305
+msgid ""
+"This tab does not show up for search results, but you can search the "
+"engines listed here via bangs."
+msgstr ""
+"Această filă nu apare pentru rezultatele căutării, dar puteți căuta în "
+"motoarele enumerate aici prin banguri."
+
+#: searx/templates/simple/preferences.html:310
+#: searx/templates/simple/preferences.html:361
+msgid "Allow"
+msgstr "Permite"
+
+#: searx/templates/simple/preferences.html:311
+#: searx/templates/simple/stats.html:25
+msgid "Engine name"
+msgstr "Numele motorului"
+
+#: searx/templates/simple/preferences.html:312
+msgid "Shortcut"
+msgstr "Scurtătură"
+
+#: searx/templates/simple/preferences.html:313
+msgid "Supports selected language"
+msgstr "Suportă limba selectată"
+
+#: searx/templates/simple/filters/time_range.html:1
+#: searx/templates/simple/preferences.html:315
+msgid "Time range"
+msgstr "Interval de timp"
+
+#: searx/templates/simple/preferences.html:316
+#: searx/templates/simple/stats.html:28
+msgid "Response time"
+msgstr "Timp de răspuns"
+
+#: searx/templates/simple/preferences.html:317
+msgid "Max time"
+msgstr "Timp maxim"
+
+#: searx/templates/simple/preferences.html:318
+#: searx/templates/simple/stats.html:29
+msgid "Reliability"
+msgstr "Fiabilitate"
+
+#: searx/templates/simple/preferences.html:356
+msgid "Special Queries"
+msgstr "Întrebări speciale"
+
+#: searx/templates/simple/preferences.html:362
+msgid "Keywords"
+msgstr "Cuvinte cheie"
+
+#: searx/templates/simple/preferences.html:363
+msgid "Name"
+msgstr "Nume"
+
+#: searx/templates/simple/preferences.html:364
+msgid "Description"
+msgstr "Descriere"
+
+#: searx/templates/simple/preferences.html:365
+msgid "Examples"
+msgstr "Exemple"
+
+#: searx/templates/simple/preferences.html:368
+msgid "This is the list of SearXNG's instant answering modules."
+msgstr "Aceasta este lista modulelor de răspuns instantaneu ale SearXNG."
+
+#: searx/templates/simple/preferences.html:379
+msgid "This is the list of plugins."
+msgstr "Aceasta este lista pluginurilor."
+
+#: searx/templates/simple/preferences.html:396
+msgid "Cookies"
+msgstr "Cookie-uri"
+
+#: searx/templates/simple/preferences.html:398
+msgid ""
+"This is the list of cookies and their values SearXNG is storing on your "
+"computer."
+msgstr ""
+"Aceasta este lista de cookie-uri și valorile lor pe care SearXNG le "
+"stochează pe computerul dvs."
+
+#: searx/templates/simple/preferences.html:399
+msgid "With that list, you can assess SearXNG transparency."
+msgstr "Cu această listă, puteți evalua transparența SearXNG."
+
+#: searx/templates/simple/preferences.html:404
+msgid "Cookie name"
+msgstr "Nume cookie"
+
+#: searx/templates/simple/preferences.html:405
+msgid "Value"
+msgstr "Valuare"
+
+#: searx/templates/simple/preferences.html:417
+msgid "Search URL of the currently saved preferences"
+msgstr "URL-ul de căutare al preferințelor salvate curent"
+
+#: searx/templates/simple/preferences.html:421
+msgid ""
+"Note: specifying custom settings in the search URL can reduce privacy by "
+"leaking data to the clicked result sites."
+msgstr ""
+"Notă: specificând configurări personalizate în URL-ul de căutare poate "
+"reduce nivelul de confidențialitate prin scurgerea datelor către siturile"
+" accesate la căutare."
+
+#: searx/templates/simple/preferences.html:422
+msgid "URL to restore your preferences in another browser"
+msgstr "URL pentru revindecarea preferințelor dintr-un alt browser"
+
+#: searx/templates/simple/preferences.html:426
+msgid ""
+"Specifying custom settings in the preferences URL can be used to sync "
+"preferences across devices."
+msgstr ""
+"Specificând setări personalizate în URLul de preferințe poate fi folosit "
+"pentru sincronizarea preferințelor pe toate aparatele."
+
+#: searx/templates/simple/preferences.html:431
+msgid ""
+"These settings are stored in your cookies, this allows us not to store "
+"this data about you."
+msgstr ""
+"Aceste configurări sunt stocate în cookie-uri, ceea ce ne permite să nu "
+"stocăm aceste date despre dumeavoastră."
+
+#: searx/templates/simple/preferences.html:433
+msgid ""
+"These cookies serve your sole convenience, we don't use these cookies to "
+"track you."
+msgstr ""
+"Aceste cookie-uri servesc doar pentru conveniența dumneavoastră, noi nu "
+"stocăm aceste cookie-uri pentru a vă urmări."
+
+#: searx/templates/simple/preferences.html:436
+msgid "Save"
+msgstr "Salvați"
+
+#: searx/templates/simple/preferences.html:437
+msgid "Reset defaults"
+msgstr "Restabilește la valorile implicite"
+
+#: searx/templates/simple/preferences.html:438
+msgid "Back"
+msgstr "Înapoi"
+
+#: searx/templates/simple/results.html:23
+msgid "Answers"
+msgstr "Răspunsuri"
+
+#: searx/templates/simple/results.html:39
+msgid "Number of results"
+msgstr "Numărul de rezultate"
+
+#: searx/templates/simple/messages/no_results.html:6
+#: searx/templates/simple/results.html:46
+msgid "Error!"
+msgstr "Eroare!"
+
+#: searx/templates/simple/results.html:46
+msgid "Engines cannot retrieve results"
+msgstr "Motoarele nu pot obține rezultate"
+
+#: searx/templates/simple/results.html:68
+msgid "Suggestions"
+msgstr "Sugestii"
+
+#: searx/templates/simple/results.html:90
+msgid "Search URL"
+msgstr "URL de căutare"
+
+#: searx/templates/simple/results.html:96
+msgid "Download results"
+msgstr "Descarcă rezultate"
+
+#: searx/templates/simple/results.html:120
+msgid "Try searching for:"
+msgstr "Încercați să căutați după:"
+
+#: searx/templates/simple/results.html:152
+msgid "Back to top"
+msgstr "Înapoi sus"
+
+#: searx/templates/simple/results.html:170
+msgid "Previous page"
+msgstr "Pagina precedentă"
+
+#: searx/templates/simple/results.html:187
+msgid "Next page"
+msgstr "Pagina următoare"
+
+#: searx/templates/simple/search.html:3
+msgid "Display the front page"
+msgstr "Afișați prima pagină"
+
+#: searx/templates/simple/search.html:9
+#: searx/templates/simple/simple_search.html:5
+msgid "Search for..."
+msgstr "Caută..."
+
+#: searx/templates/simple/search.html:10
+#: searx/templates/simple/simple_search.html:6
+msgid "clear"
+msgstr "Ștergeți"
+
+#: searx/templates/simple/search.html:11
+#: searx/templates/simple/simple_search.html:7
+msgid "search"
+msgstr "căutați"
+
+#: searx/templates/simple/stats.html:21
+msgid "There is currently no data available. "
+msgstr "Deocamdată nu există date disponibile."
+
+#: searx/templates/simple/stats.html:26
+msgid "Scores"
+msgstr "Scoruri"
+
+#: searx/templates/simple/stats.html:27
+msgid "Result count"
+msgstr "Număr de rezultate"
+
+#: searx/templates/simple/stats.html:59
+msgid "Total"
+msgstr "Total"
+
+#: searx/templates/simple/stats.html:60
+msgid "HTTP"
+msgstr "HTTP"
+
+#: searx/templates/simple/stats.html:61
+msgid "Processing"
+msgstr "Prelucrare"
+
+#: searx/templates/simple/stats.html:99
+msgid "Warnings"
+msgstr "Avertismente"
+
+#: searx/templates/simple/stats.html:99
+msgid "Errors and exceptions"
+msgstr "Erori și excepții"
+
+#: searx/templates/simple/stats.html:105
+msgid "Exception"
+msgstr "Excepție"
+
+#: searx/templates/simple/stats.html:107
+msgid "Message"
+msgstr "Mesaj"
+
+#: searx/templates/simple/stats.html:109
+msgid "Percentage"
+msgstr "Procentaj"
+
+#: searx/templates/simple/stats.html:111
+msgid "Parameter"
+msgstr "Parametru"
+
+#: searx/templates/simple/stats.html:119
+msgid "Filename"
+msgstr "Numele fișierului"
+
+#: searx/templates/simple/stats.html:120
+msgid "Function"
+msgstr "Funcție"
+
+#: searx/templates/simple/stats.html:121
+msgid "Code"
+msgstr "Cod"
+
+#: searx/templates/simple/stats.html:128
+msgid "Checker"
+msgstr "Verificator"
+
+#: searx/templates/simple/stats.html:131
+msgid "Failed test"
+msgstr "Test eșuat"
+
+#: searx/templates/simple/stats.html:132
+msgid "Comment(s)"
+msgstr "Comentariu(ii)"
+
+#: searx/templates/simple/filters/time_range.html:3
+msgid "Anytime"
+msgstr "Oricând"
+
+#: searx/templates/simple/filters/time_range.html:6
+msgid "Last day"
+msgstr "Ultima zi"
+
+#: searx/templates/simple/filters/time_range.html:9
+msgid "Last week"
+msgstr "Ultima săptămână"
+
+#: searx/templates/simple/filters/time_range.html:12
+msgid "Last month"
+msgstr "Ultima lună"
+
+#: searx/templates/simple/filters/time_range.html:15
+msgid "Last year"
+msgstr "Ultimul an"
+
+#: searx/templates/simple/messages/no_cookies.html:3
+msgid "Information!"
+msgstr "Informație!"
+
+#: searx/templates/simple/messages/no_cookies.html:4
+msgid "currently, there are no cookies defined."
+msgstr "momentan, nu există cookie-uri definite"
+
+#: searx/templates/simple/messages/no_results.html:6
+msgid "Engines cannot retrieve results."
+msgstr "Motoarele nu pot obține rezultate."
+
+#: searx/templates/simple/messages/no_results.html:15
+msgid "Please, try again later or find another SearXNG instance."
+msgstr ""
+"Vă rugăm să încercați din nou mai târziu sau să găsiți o altă instanță "
+"SearXNG."
+
+#: searx/templates/simple/messages/no_results.html:20
+msgid "Sorry!"
+msgstr "Ne pare rău!"
+
+#: searx/templates/simple/messages/no_results.html:21
+msgid ""
+"we didn't find any results. Please use another query or search in more "
+"categories."
+msgstr ""
+"n-am găsit nici un rezultat. Folosiți o altă interogare sau căutați în "
+"mai multe categorii."
+
+#: searx/templates/simple/result_templates/default.html:6
+msgid "show media"
+msgstr "arată media"
+
+#: searx/templates/simple/result_templates/default.html:6
+msgid "hide media"
+msgstr "ascunde media"
+
+#: searx/templates/simple/result_templates/default.html:14
+#: searx/templates/simple/result_templates/videos.html:14
+msgid "This site did not provide any description."
+msgstr "Acest site nu a oferit nici o descriere."
+
+#: searx/templates/simple/result_templates/images.html:19
+msgid "Format"
+msgstr "Format"
+
+#: searx/templates/simple/result_templates/images.html:21
+msgid "Engine"
+msgstr "Motor"
+
+#: searx/templates/simple/result_templates/images.html:22
+msgid "View source"
+msgstr "Vizualizare sursă"
+
+#: searx/templates/simple/result_templates/map.html:12
+msgid "address"
+msgstr "adresă"
+
+#: searx/templates/simple/result_templates/map.html:43
+msgid "show map"
+msgstr "arată harta"
+
+#: searx/templates/simple/result_templates/map.html:43
+msgid "hide map"
+msgstr "ascunde harta"
+
+#: searx/templates/simple/result_templates/paper.html:5
+msgid "Published date"
+msgstr "Data publicării"
+
+#: searx/templates/simple/result_templates/paper.html:9
+msgid "Journal"
+msgstr "Jurnal"
+
+#: searx/templates/simple/result_templates/paper.html:22
+msgid "Editor"
+msgstr "Editor"
+
+#: searx/templates/simple/result_templates/paper.html:23
+msgid "Publisher"
+msgstr "Editura"
+
+#: searx/templates/simple/result_templates/paper.html:24
+msgid "Type"
+msgstr "Tip"
+
+#: searx/templates/simple/result_templates/paper.html:25
+msgid "Tags"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:26
+msgid "DOI"
+msgstr "DOI"
+
+#: searx/templates/simple/result_templates/paper.html:27
+msgid "ISSN"
+msgstr ""
+
+#: searx/templates/simple/result_templates/paper.html:28
+msgid "ISBN"
+msgstr "ISBN"
+
+#: searx/templates/simple/result_templates/paper.html:33
+msgid "PDF"
+msgstr "PDF"
+
+#: searx/templates/simple/result_templates/paper.html:34
+msgid "HTML"
+msgstr "HTML"
+
+#: searx/templates/simple/result_templates/torrent.html:6
+msgid "magnet link"
+msgstr "legătură magnet"
+
+#: searx/templates/simple/result_templates/torrent.html:7
+msgid "torrent file"
+msgstr "fișier torrent"
+
+#: searx/templates/simple/result_templates/torrent.html:9
+msgid "Seeder"
+msgstr "Sursă completă"
+
+#: searx/templates/simple/result_templates/torrent.html:9
+msgid "Leecher"
+msgstr "Sursă incompletă"
+
+#: searx/templates/simple/result_templates/torrent.html:11
+msgid "Filesize"
+msgstr "Dimensiune fișier"
+
+#: searx/templates/simple/result_templates/torrent.html:12
+msgid "Bytes"
+msgstr "Octeți"
+
+#: searx/templates/simple/result_templates/torrent.html:13
+msgid "kiB"
+msgstr "kiB"
+
+#: searx/templates/simple/result_templates/torrent.html:14
+msgid "MiB"
+msgstr "MiB"
+
+#: searx/templates/simple/result_templates/torrent.html:15
+msgid "GiB"
+msgstr "GiB"
+
+#: searx/templates/simple/result_templates/torrent.html:16
+msgid "TiB"
+msgstr "TiB"
+
+#: searx/templates/simple/result_templates/torrent.html:20
+msgid "Number of Files"
+msgstr "Numărul fișierelor"
+
+#: searx/templates/simple/result_templates/videos.html:6
+msgid "show video"
+msgstr "arată video"
+
+#: searx/templates/simple/result_templates/videos.html:6
+msgid "hide video"
+msgstr "ascunde video"
+
+#~ msgid "Engine time (sec)"
+#~ msgstr "Timpul motorului (sec)"
+
+#~ msgid "Page loads (sec)"
+#~ msgstr "Încărcarea paginii (sec)"
+
+#~ msgid "Errors"
+#~ msgstr "Erori"
+
+#~ msgid "CAPTCHA required"
+#~ msgstr ""
+
+#~ msgid "Rewrite HTTP links to HTTPS if possible"
+#~ msgstr "Rescrie legăturile HTTP cu HTTPS dacă e posibil"
+
+#~ msgid ""
+#~ "Results are opened in the same "
+#~ "window by default. This plugin "
+#~ "overwrites the default behaviour to open"
+#~ " links on new tabs/windows. (JavaScript "
+#~ "required)"
+#~ msgstr ""
+#~ "Rezultatele sunt deschise în aceeași "
+#~ "fereastră în mod implicit. Acest modul"
+#~ " suprascrie acțiunea implicită de a "
+#~ "deschide legături în ferestre/taburi noi. "
+#~ "(Necesită JavaScript)"
+
+#~ msgid "Color"
+#~ msgstr "Culoare"
+
+#~ msgid "Blue (default)"
+#~ msgstr "Albastru (implicit)"
+
+#~ msgid "Violet"
+#~ msgstr "Violet"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "Cyan"
+#~ msgstr "Azuriu"
+
+#~ msgid "Orange"
+#~ msgstr "Portocaliu"
+
+#~ msgid "Red"
+#~ msgstr "Roșu"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#~ msgid "Block"
+#~ msgstr "Blochează"
+
+#~ msgid "original context"
+#~ msgstr "contextul original"
+
+#~ msgid "Plugins"
+#~ msgstr "Module"
+
+#~ msgid "Answerers"
+#~ msgstr "Răspunzători"
+
+#~ msgid "Avg. time"
+#~ msgstr "Timp mediu"
+
+#~ msgid "show details"
+#~ msgstr "arată detalii"
+
+#~ msgid "hide details"
+#~ msgstr "ascunde detalii"
+
+#~ msgid "Load more..."
+#~ msgstr "Încarcă mai multe..."
+
+#~ msgid "Loading..."
+#~ msgstr ""
+
+#~ msgid "Change searx layout"
+#~ msgstr "Schimbă aspectul lui searx"
+
+#~ msgid "Proxying image results through searx"
+#~ msgstr "Transferă rezultatele cu imagini prin searx"
+
+#~ msgid "This is the list of searx's instant answering modules."
+#~ msgstr "Aceasta este lista de module de răspundere instantă a lui searx."
+
+#~ msgid ""
+#~ "This is the list of cookies and"
+#~ " their values searx is storing on "
+#~ "your computer."
+#~ msgstr ""
+#~ "Aceasta este lista de cookie-uri "
+#~ "și valorile lor pe care searx le"
+#~ " stochează pe calculatorul dumneavoastră."
+
+#~ msgid "With that list, you can assess searx transparency."
+#~ msgstr "Cu acea listă puteți evalua nivelul de transparență al lui searx."
+
+#~ msgid "It look like you are using searx first time."
+#~ msgstr "Se pare că folosiți searx pentru prima dată."
+
+#~ msgid "Please, try again later or find another searx instance."
+#~ msgstr "Încercați din nou mai târziu sau folosiți o altă instanță searx-"
+
+#~ msgid "Themes"
+#~ msgstr "Teme"
+
+#~ msgid "Reliablity"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When enabled, the result page's title"
+#~ " contains your query. Your browser "
+#~ "can record this title."
+#~ msgstr ""
+
+#~ msgid "Method"
+#~ msgstr "Metodă"
+
+#~ msgid ""
+#~ "This tab does not show up for "
+#~ "search results but you can search "
+#~ "the engines listed here via bangs."
+#~ msgstr ""
+
+#~ msgid "Advanced settings"
+#~ msgstr "Configurări avansate"
+
+#~ msgid "Close"
+#~ msgstr "Închide"
+
+#~ msgid "Language"
+#~ msgstr "Limbă"
+
+#~ msgid "broken"
+#~ msgstr "stricat"
+
+#~ msgid "supported"
+#~ msgstr "suportat"
+
+#~ msgid "not supported"
+#~ msgstr "nesuportat"
+
+#~ msgid "about"
+#~ msgstr "despre"
+
+#~ msgid "Avg."
+#~ msgstr "Medie"
+
+#~ msgid "User Interface"
+#~ msgstr "Interfața cu utilizatorul"
+
+#~ msgid "Choose style for this theme"
+#~ msgstr "Alegeți stilul pentru această temă"
+
+#~ msgid "Style"
+#~ msgstr "Stil"
+
+#~ msgid "Show advanced settings"
+#~ msgstr "Arată setări avansate"
+
+#~ msgid "Show advanced settings panel in the home page by default"
+#~ msgstr "Afișați panoul de setări avansate în pagina de pornire în mod implicit"
+
+#~ msgid "Allow all"
+#~ msgstr "Permite toate"
+
+#~ msgid "Disable all"
+#~ msgstr "Dezactivați toate"
+
+#~ msgid "Selected language"
+#~ msgstr "Limba selectată"
+
+#~ msgid "Query"
+#~ msgstr "Termen de căutare"
+
+#~ msgid "save"
+#~ msgstr "salvează"
+
+#~ msgid "back"
+#~ msgstr "înapoi"
+
+#~ msgid "Links"
+#~ msgstr "Legături"
+
+#~ msgid "RSS subscription"
+#~ msgstr "Abonament RSS"
+
+#~ msgid "Search results"
+#~ msgstr "Rezultatele căutării"
+
+#~ msgid "next page"
+#~ msgstr "pagina următoare"
+
+#~ msgid "previous page"
+#~ msgstr "pagina anterioară"
+
+#~ msgid "Start search"
+#~ msgstr "Pornește căutarea"
+
+#~ msgid "Clear search"
+#~ msgstr "Ștergeți căutarea"
+
+#~ msgid "Clear"
+#~ msgstr "Golește"
+
+#~ msgid "stats"
+#~ msgstr "statistici"
+
+#~ msgid "Heads up!"
+#~ msgstr "Atenție!"
+
+#~ msgid "It look like you are using SearXNG first time."
+#~ msgstr "Se pare că utilizați SearXNG pentru prima dată."
+
+#~ msgid "Well done!"
+#~ msgstr "Bravo!"
+
+#~ msgid "Settings saved successfully."
+#~ msgstr "Configurările au fost salvate cu succes."
+
+#~ msgid "Oh snap!"
+#~ msgstr "Vai!"
+
+#~ msgid "Something went wrong."
+#~ msgstr "Ceva n-a funcționat corect."
+
+#~ msgid "Date"
+#~ msgstr "Dată"
+
+#~ msgid "Type"
+#~ msgstr "Tip"
+
+#~ msgid "Get image"
+#~ msgstr "Obține imaginea"
+
+#~ msgid "Center Alignment"
+#~ msgstr ""
+
+#~ msgid "Displays results in the center of the page (Oscar layout)."
+#~ msgstr ""
+
+#~ msgid "preferences"
+#~ msgstr "preferințe"
+
+#~ msgid "Scores per result"
+#~ msgstr "Scoruri per rezultat"
+
+#~ msgid "a privacy-respecting, hackable metasearch engine"
+#~ msgstr "un meta-motor de căutare care respectă confidențialitatea"
+
+#~ msgid "No abstract is available for this publication."
+#~ msgstr "Niciun abstract disponibil pentru această publicație."
+
+#~ msgid "Self Informations"
+#~ msgstr "Informații despre sine"
+
+#~ msgid ""
+#~ "Change how forms are submited, <a "
+#~ "href=\"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\""
+#~ " rel=\"external\">learn more about request "
+#~ "methods</a>"
+#~ msgstr ""
+#~ "Modificați cum sunt trimise formularele, "
+#~ "<a "
+#~ "href=\"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\""
+#~ " rel=\"external\">învățați mai multe despre "
+#~ "metodele de transfer</a>"
+
+#~ msgid ""
+#~ "This plugin checks if the address "
+#~ "of the request is a TOR exit "
+#~ "node, and informs the user if it"
+#~ " is, like check.torproject.org but from "
+#~ "searxng."
+#~ msgstr ""
+#~ "Acest plugin verifica daca adresa "
+#~ "cererii este un nod de iesire TOR"
+#~ " si informeaza utilizatorul in caz "
+#~ "afirmativ, ex. check.torproject.org dar prin"
+#~ " searxng."
+
+#~ msgid ""
+#~ "The TOR exit node list "
+#~ "(https://check.torproject.org/exit-addresses) is "
+#~ "unreachable."
+#~ msgstr ""
+#~ "Lista  cu nodul de iesire TOR "
+#~ "(https://check.torproject.org/exit-addresses) nu "
+#~ "poate fi gasita."
+
+#~ msgid "You are using TOR. Your IP address seems to be: {ip_address}."
+#~ msgstr "Folosesti TOR. Adresa ta IP pare a fi aceasta: {ip_address}."
+
+#~ msgid "You are not using TOR. Your IP address seems to be: {ip_address}."
+#~ msgstr "Nu folosesti TOR. Adresa ta IP pare a fi aceasta: {ip_address}."
+
+#~ msgid ""
+#~ "The could not download the list of"
+#~ " Tor exit-nodes from "
+#~ "https://check.torproject.org/exit-addresses."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You are using Tor. It looks like"
+#~ " you have this external IP address:"
+#~ " {ip_address}."
+#~ msgstr ""
+
+#~ msgid "You are not using Tor. You have this external IP address: {ip_address}."
+#~ msgstr ""
+
+#~ msgid "Autodetect search language"
+#~ msgstr "Detectează automat limba căutării"
+
+#~ msgid "Automatically detect the query search language and switch to it."
+#~ msgstr "Detectează automat limba de căutare a interogărilor și comută la ea."
+

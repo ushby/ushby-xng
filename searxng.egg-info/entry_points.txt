@@ -1,0 +1,3 @@
+[console_scripts]
+searx-checker = searx.search.checker.__main__:main
+searx-run = searx.webapp:run
