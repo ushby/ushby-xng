@@ -12,7 +12,7 @@
 
 Privacy-respecting, hackable metasearch engine. Although, this one is a fork which Ushby company have implemented.
 
-This tool can be freely accessed by going to https://xnglive.site/searxng (If you are looking for running instances, ready to use, then visit searx.space but keep in mind that they are not as secured -from networking aspec- as this one). 
+This tool can be freely accessed by going to https://xnglive.site/searxng (If you are looking for other running instances, then visit searx.space but keep in mind that they are not as secured -from a networking aspect- as this one). 
 
 Contact
 =======
